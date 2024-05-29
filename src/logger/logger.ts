@@ -20,6 +20,7 @@ export class Logger {
     }
 
     track(seq: number, logs: string, system: ContractSystem) {
+        console.log(logs);
         this._logs.push({ $seq: seq, logs });
     }
 }

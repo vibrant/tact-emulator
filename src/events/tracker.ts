@@ -84,6 +84,7 @@ export class Tracker {
             }
         }
 
+        console.log(events);
         // Persist events
         this._transactions.push({ $seq: seq, events });
     }
